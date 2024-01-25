@@ -1,0 +1,51 @@
+Documentation pour la Liste de Tâches avec jQuery
+1. Structure HTML
+Balise <html> : Définit le début du document HTML.
+Balise <head> : Contient les métadonnées et les liens vers les fichiers de style et de script.
+Balise <body> : Contient le contenu de la page.
+2. Fichiers externes
+style.css : Fichier de style externe.
+jQuery/jquery-2.2.3.min.js : Bibliothèque jQuery.
+js.js : Fichier JavaScript contenant le code spécifique.
+3. Interface Utilisateur
+#contenu_add : Section pour ajouter une nouvelle tâche.
+
+#input_add_tache : Champ de saisie pour la nouvelle tâche.
+#bt_add_tache : Bouton pour ajouter la tâche.
+#alert : Zone d'affichage des messages d'alerte.
+#tab : Tableau pour afficher la liste de tâches.
+
+Colonnes :
+Checkbox : Pour marquer la tâche comme terminée.
+Tâches : Contient le texte de la tâche.
+Options : Boutons de modification et de suppression.
+#signature : Signature de l'auteur.
+
+4. jQuery Functions
+$(function() {...}) : Fonction principale qui s'exécute lorsque le document est prêt.
+
+Initialise le focus sur le champ de saisie.
+Ajout de Tâche :
+
+#bt_add_tache : Ajoute une nouvelle tâche à la liste.
+Vérifie si le champ n'est pas vide.
+Ajoute une nouvelle ligne au tableau avec animation.
+Efface le champ et les alertes.
+Gestion des Checkbox :
+
+.checkbox : Gère l'état de la checkbox.
+Barre la tâche terminée avec un trait rouge en cas de coche.
+Suppression de Tâche :
+
+.bt_del : Supprime la tâche avec une animation de fondu.
+Modification de Tâche :
+
+.bt_modif : Modifie le texte de la tâche.
+Permet la modification en remplaçant le texte par un champ de saisie.
+Animation de Signature :
+
+#signature : Anime l'apparition de la signature.
+Remarques
+Les actions d'ajout, de suppression et de modification sont gérées de manière dynamique avec des animations.
+Le texte du bouton "Modifier" change en "Validé" pendant la modification.
+Le code utilise jQuery pour simplifier la manipulation du DOM

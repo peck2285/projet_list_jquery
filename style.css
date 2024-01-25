@@ -1,0 +1,106 @@
+ body{
+			background-color: black;
+			color: white;
+		}
+
+		table{
+			background-color: purple;
+			margin-top: 100px;
+			min-width: 350px;
+			border-radius: 5px;
+			box-shadow: 2px 2px 5px white;
+		}
+
+		th{
+			color: lightgreen;
+			font-size: 25px;
+			border-bottom-style: solid;
+			border-bottom-color: white;
+		}
+
+		#alert{
+			color: red;
+		}
+
+		.input_modif{
+			width: 380px;
+			border-radius: 5px;
+		}
+
+		#contenu_add{
+			position: absolute;
+			left: 40%;
+			top: 50px;
+		}
+		#input_add_tache{
+			color:blue;
+			width: 250px;
+			border-color: aqua;
+		}
+		input[type=text]{
+			border-radius: 5px;
+			width: 80%;
+			border-color: purple;
+			text-indent: 5px;
+		}
+
+		button{			
+			background-color: white;
+			border-radius: 10px;
+			cursor: pointer;
+		}
+
+		.add{
+			border-color: aqua;
+			background-color: aqua;
+			color: blue;			
+		}
+
+		.modif{
+			border-color: darkorange;
+			background-color: darkorange;
+			color: white;
+			float: left;
+		}
+
+		.del{
+			border-color: darkred;
+			background-color: darkred;
+			color: red;
+			float: right;
+		}
+
+		.add:hover{
+			border-color: darkblue;
+			background-color: darkblue;
+			color: white;
+		}
+
+		.modif:hover{
+			border-color: orange;
+			background-color: orange;
+			color: white;
+		}
+
+		.del:hover{
+			border-color: red;
+			background-color: red;
+			color: white;
+		}
+
+		.nouvelle_ligne{
+			opacity: 0.1;
+		}
+
+		#signature{
+			opacity: 0.1;
+			color: red;
+			width: 100px;
+			padding-left: 25px;
+			box-shadow: 2px 2px 9px purple inset;
+			position: absolute;
+			right: 10px;
+			bottom: 10px;
+			background-color: black;
+			border-radius: 10px;
+		}
